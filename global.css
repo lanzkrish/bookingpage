@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --title01-bold: Figtree;
+  --font-pp-cirka: "PP Cirka";
+
+  /* font sizes */
+  --title01-bold-size: 23px;
+  --heading04-bold-size: 28px;
+  --title03-size: 16px;
+  --body-size: 13px;
+  --title02-semi-bold-size: 19px;
+
+  /* Colors */
+  --primary-color: #f8f9fd;
+  --color-mediumslateblue: #6f57e9;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgray: rgba(179, 179, 179, 0.5);
+  --color-gray: #808080;
+  --color-dimgray: #5c5c5c;
+  --color-plum: #d3b0ff;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-2xl: 21px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-sm: 14px;
+  --br-32xl: 51px;
+}
