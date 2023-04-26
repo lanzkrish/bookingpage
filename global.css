@@ -4,6 +4,8 @@ body {
   margin: 0;
   line-height: normal;
   font-family: c;
+  cursor: pointer;
+  transition: 0.5s;
 }
 @font-face {
   font-family: PP Cirka;

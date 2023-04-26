@@ -34,6 +34,12 @@
   flex-shrink: 0;
   box-sizing: border-box;
 }
+.date1{
+  border:none;
+  background: red;
+  display: none;
+}
+
 .line-div {
   position: relative;
   border-right: 1.2px solid var(--color-silver);
@@ -142,6 +148,10 @@
   padding: var(--padding-3xs);
   box-sizing: border-box;
   justify-content: center;
+}
+.link{
+  color: black;
+  text-decoration: none;
 }
 .booking2 {
   position: relative;
@@ -554,6 +564,8 @@
 }
 .mate1 {
   color: var(--color-mediumslateblue);
+  position: relative;
+  left:-10px;
 }
 .logo1 {
   position: relative;
