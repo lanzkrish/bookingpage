@@ -7,6 +7,9 @@ body {
   cursor: pointer;
   transition: 0.5s;
 }
+a:visited {
+  text-decoration: none;
+}
 @font-face {
   font-family: PP Cirka;
   src: url(Cirka-Variable.ttf);

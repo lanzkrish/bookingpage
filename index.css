@@ -504,9 +504,9 @@
 }
 .mate {
   color: var(--color-mediumslateblue);
+  text-decoration: none;
   font-family:pp cirka ;
   position: relative;
-  left:-10px;
 }
 .logo {
   position: relative;
