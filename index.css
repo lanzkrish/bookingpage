@@ -456,13 +456,14 @@
   font-size: var(--heading04-bold-size);
   color: var(--color-black);
 }
-.checkout-wrapper {
+.checkout-wrapper button{
   top: 496px;
   left: 39px;
   border-radius: var(--br-sm);
   background-color: var(--color-blueviolet);
   width: 276px;
   padding: var(--padding-3xs);
+  border:none;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
@@ -499,6 +500,9 @@
 }
 .mate {
   color: var(--color-mediumslateblue);
+  font-family:pp cirka ;
+  position: relative;
+  left:-10px;
 }
 .logo {
   position: relative;
@@ -552,13 +556,17 @@
   color: var(--color-black);
   font-family: var(--font-pp-cirka);
 }
-.chat-button-icon {
+
+.chatbtn {
   position: absolute;
+  background: url(./public/chat-button.svg);
+  border:none;
   top: 842px;
   left: 1301px;
   width: 130px;
   height: 154px;
 }
+
 .booking {
   position: relative;
   background-color: var(--primary-color);
